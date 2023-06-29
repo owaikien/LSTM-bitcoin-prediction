@@ -54,6 +54,6 @@ Here's what I got:
 
 The results of this backtest strategy showed that my LSTM model outperformed the other 2 strategies. Although all strategies returned a total loss in portfolio value, I think this is sensible especially in this kind of funky bear market. The LSTM model outperformed the “random” strategy by ~8%, while it outperformed the “buy and hold strategy” by >300% !
 
-To read more I’ve also written some articles explaining the intuition behind some of the steps I’ve did in this model in Medium: <br>
+To read more I’ve also written some articles explaining the intuition behind some of the steps I’ve did in this model on Medium: <br>
 Intuition behind the model and data used: [Part 1](https://medium.com/@kienong2000/using-multiple-features-to-predict-bitcoin-close-price-multivariate-time-series-forecasting-with-e43cb5da63b1) <br>
 Data collection & cleaning + Model building and prediction: [Part 2](https://medium.com/@kienong2000/using-multiple-features-to-predict-bitcoin-close-price-multivariate-time-series-forecasting-with-e4ecd2a4e008)
