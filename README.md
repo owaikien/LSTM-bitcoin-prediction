@@ -20,7 +20,7 @@ The steps after include merging all the data, performing feature engineering and
 [n_samples, time_steps, n_features]
 `````
 
-where `n_samples` is your number of samples, `time_steps` is the time interval (which is normally the number of LSTM cells), and `n_features` is the number of features that you’ve got.
+where `n_samples` is your number of samples, `time_steps` is the time interval (which is normally the number of LSTM cells), and `n_features` is the number of features that you’ve got. Ultimately what I am going to do is to use the data of 99 previous days to predict the close price of the 100th day, and repeat this until the last 100 data in my dataset.
 
 <h2>Model Building and Training</h2>
 
